@@ -3534,6 +3534,7 @@ GameObject:
   - component: {fileID: 3573634725241181813}
   - component: {fileID: -3715926110635015510}
   - component: {fileID: -3110175494140521054}
+  - component: {fileID: 6649129180107579512}
   m_Layer: 0
   m_Name: Dog_GermanShepherd_01
   m_TagString: Untagged
@@ -3636,6 +3637,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 7
+--- !u!65 &6649129180107579512
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3573634725250659111}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3573634725250659519
 GameObject:
   m_ObjectHideFlags: 0
@@ -3646,6 +3660,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3573634725250906627}
   - component: {fileID: 3573634725245611807}
+  - component: {fileID: 64164046574216267}
   m_Layer: 0
   m_Name: SM_GermanShepherd_01
   m_TagString: Untagged
@@ -3760,6 +3775,19 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.000000009313226, y: -0.026036747, z: 0.09034608}
     m_Extent: {x: 0.045073755, y: 0.10734234, z: 0.13860275}
   m_DirtyAABB: 0
+--- !u!65 &64164046574216267
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3573634725250659519}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.09014751, y: 0.21468468, z: 0.2772055}
+  m_Center: {x: -0.000000009313226, y: 0.107342325, z: -0.7375072}
 --- !u!1 &3573634725250659681
 GameObject:
   m_ObjectHideFlags: 0

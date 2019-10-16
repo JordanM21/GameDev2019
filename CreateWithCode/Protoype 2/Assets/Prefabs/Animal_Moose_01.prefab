@@ -340,6 +340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1935597421030096693}
   - component: {fileID: 1935597421027267973}
+  - component: {fileID: 8266391289131637570}
   m_Layer: 0
   m_Name: SM_Moose_Male_01
   m_TagString: Untagged
@@ -411,6 +412,19 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.000000014901161, y: 0.045301065, z: 0.16266179}
     m_Extent: {x: 0.10332231, y: 0.2796877, z: 0.26338276}
   m_DirtyAABB: 0
+--- !u!65 &8266391289131637570
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935597421030363273}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2066446, y: 0.55937535, z: 0.52676547}
+  m_Center: {x: 0.000000014901159, y: 0.045301057, z: 0.16266164}
 --- !u!1 &1935597421030374727
 GameObject:
   m_ObjectHideFlags: 0

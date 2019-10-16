@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 5734273058483079334}
   - component: {fileID: 5734273059858049719}
   - component: {fileID: 8763652709118971629}
+  - component: {fileID: 1753290668200660909}
+  - component: {fileID: 1018586129897795037}
   m_Layer: 0
   m_Name: Food_Wine_01
   m_TagString: Untagged
@@ -105,3 +107,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b723b61b622d144edaed2ffaa68afdc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &1753290668200660909
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5734273058480887398}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.24241088, y: 0.9589979, z: 0.24241088}
+  m_Center: {x: 0, y: -0.000000059604645, z: 0}
+--- !u!54 &1018586129897795037
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5734273058480887398}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
