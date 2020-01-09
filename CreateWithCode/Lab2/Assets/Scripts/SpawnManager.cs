@@ -6,7 +6,7 @@ public class SpawnManager : MonoBehaviour
 {
 
     public GameObject[] obstaclePrefabs;
-    private float spawnPosZ = 12;
+    private float spawnPosZ = 20;
     private float startDelay = 2;
     private float spawnInterval = .3f;
     // Start is called before the first frame update
@@ -24,7 +24,7 @@ public class SpawnManager : MonoBehaviour
     void SpawnRandomObstacle()
     {
         int obstacleIndex = Random.Range(0, obstaclePrefabs.Length);
-        Vector3 spawnPos = new Vector3(Random.Range(-7, 18), 2, spawnPosZ);
+        Vector3 spawnPos = new Vector3(Random.Range(-15, 25), 2, spawnPosZ);
         
 
 
